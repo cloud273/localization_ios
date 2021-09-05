@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19158" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fpM-Kt-hxl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19141"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="btd-N3-7Gl">
+            <objects>
+                <navigationController id="fpM-Kt-hxl" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Tne-LT-woz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="SbP-0B-Eu7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VAb-wZ-Va4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-997" y="3"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Op8-Xc-JEY">
+                                <rect key="frame" x="173.5" y="128" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="lNormal" value="button"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="lHighlight" value="button"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjd-2u-17U">
+                                <rect key="frame" x="186" y="199" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="lText" value="label"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLp-Kw-edy">
+                                <rect key="frame" x="138.5" y="781" width="137" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Change language"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="lNormal" value="change_language"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="lHighlight" value="change_language"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="changeLanguageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="azH-8H-mdq"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_en" translatesAutoresizingMaskIntoConstraints="NO" id="31E-9t-VuZ">
+                                <rect key="frame" x="157" y="260" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="bQS-wY-uBc"/>
+                                    <constraint firstAttribute="width" constant="100" id="x4H-vd-CgC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="lImage" value="icon"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="31E-9t-VuZ" firstAttribute="top" secondItem="kjd-2u-17U" secondAttribute="bottom" constant="40" id="3cr-x6-ubP"/>
+                            <constraint firstItem="Op8-Xc-JEY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3eK-Ff-U9L"/>
+                            <constraint firstItem="kjd-2u-17U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ca3-bP-Yen"/>
+                            <constraint firstItem="Op8-Xc-JEY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Q2V-DO-gqW"/>
+                            <constraint firstItem="kjd-2u-17U" firstAttribute="top" secondItem="Op8-Xc-JEY" secondAttribute="bottom" constant="40" id="YpW-yq-p4Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yLp-Kw-edy" secondAttribute="bottom" constant="50" id="ha7-nr-r3e"/>
+                            <constraint firstItem="yLp-Kw-edy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lOS-ug-OTk"/>
+                            <constraint firstItem="31E-9t-VuZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yRf-HS-41C"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="4ZD-K7-3Mb">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="AQq-cM-Ibd">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="lTitle" value="next"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <segue destination="dkL-Hu-nED" kind="show" id="Sef-zF-ySI"/>
+                            </connections>
+                        </barButtonItem>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="lTitle" value="title"/>
+                        </userDefinedRuntimeAttributes>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-126" y="3"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="b0a-bC-c0f">
+            <objects>
+                <viewController id="dkL-Hu-nED" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o2f-3f-g21">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlF-I4-78h">
+                                <rect key="frame" x="138.5" y="781" width="137" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Change language"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="lNormal" value="change_language"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="lHighlight" value="change_language"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="changeLanguageButtonPressed:" destination="dkL-Hu-nED" eventType="touchUpInside" id="all-f3-MAx"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PRx-1h-duS">
+                                <rect key="frame" x="20" y="128" width="374" height="28.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="lPlaceHolder" value="input"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TjU-CB-t0v"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PRx-1h-duS" firstAttribute="leading" secondItem="TjU-CB-t0v" secondAttribute="leading" constant="20" id="QnQ-4V-68i"/>
+                            <constraint firstItem="TjU-CB-t0v" firstAttribute="bottom" secondItem="ZlF-I4-78h" secondAttribute="bottom" constant="50" id="cP5-yg-emf"/>
+                            <constraint firstItem="TjU-CB-t0v" firstAttribute="trailing" secondItem="PRx-1h-duS" secondAttribute="trailing" constant="20" id="dmB-Qw-zvd"/>
+                            <constraint firstItem="PRx-1h-duS" firstAttribute="top" secondItem="TjU-CB-t0v" secondAttribute="top" constant="40" id="dsd-VK-gzb"/>
+                            <constraint firstItem="ZlF-I4-78h" firstAttribute="centerX" secondItem="o2f-3f-g21" secondAttribute="centerX" id="nS0-0L-3PN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="Kpp-he-1AV">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="lTitle" value="title"/>
+                        </userDefinedRuntimeAttributes>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JJM-Pb-amU" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="577" y="3"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_en" width="200" height="200"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

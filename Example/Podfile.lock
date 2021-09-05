@@ -1,0 +1,16 @@
+PODS:
+  - CLLocalization (1.0.0)
+
+DEPENDENCIES:
+  - CLLocalization
+
+SPEC REPOS:
+  trunk:
+    - CLLocalization
+
+SPEC CHECKSUMS:
+  CLLocalization: e83420a04b25ac5afda1bce31f18e46a60e0ccae
+
+PODFILE CHECKSUM: b07309a7e2c46f23a9671b04c806e03e8a4a6518
+
+COCOAPODS: 1.11.0

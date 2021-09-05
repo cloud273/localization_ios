@@ -1,0 +1,6 @@
+module CLLocalization {
+  umbrella header "CLLocalization-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "CLLocalization"
 
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
 
   s.summary      = "CLLocalization framework"
 

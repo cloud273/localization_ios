@@ -7,7 +7,12 @@ import Foundation
 class CLUtility {
     
     static func localized(_ key: String) -> String {
-        return "\(key)_\(CLLocalization.selectedLanguage)"
+        let code = CLLocalization.language
+        if code.isEmpty {
+            return key
+        } else {
+            return "\(key)_\(code)"
+        }
     }
     
 }

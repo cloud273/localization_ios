@@ -39,7 +39,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="lNormal" value="button"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="lHighlight" value="button"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjd-2u-17U">
@@ -57,7 +56,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Change language"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="lNormal" value="change_language"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="lHighlight" value="change_language"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="changeLanguageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="azH-8H-mdq"/>
@@ -119,7 +117,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Change language"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="lNormal" value="change_language"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="lHighlight" value="change_language"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="changeLanguageButtonPressed:" destination="dkL-Hu-nED" eventType="touchUpInside" id="all-f3-MAx"/>

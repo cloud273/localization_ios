@@ -19,10 +19,14 @@ class ViewController: UIViewController {
         let alertController = UIAlertController.init(title: nil, message: nil, preferredStyle: .alert)
         for code in CLLocalization.supportedLanguages {
             let action = UIAlertAction.init(title: code.localized, style: .default, handler: { (_) in
-                CLLocalization.selectedLanguage = code
+                CLLocalization.setLanguage(code)
             })
             alertController.addAction(action)
         }
+        let action = UIAlertAction.init(title: "device_language".localized, style: .default, handler: { (_) in
+            CLLocalization.setLanguage(nil)
+        })
+        alertController.addAction(action)
         alertController.title = "change_language".localized
         alertController.addAction(UIAlertAction.init(title: "cancel".localized, style: .destructive, handler: { (_) in
             

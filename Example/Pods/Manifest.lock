@@ -1,16 +1,16 @@
 PODS:
-  - CLLocalization (1.0.0)
+  - CLLocalization (1.0.1)
 
 DEPENDENCIES:
-  - CLLocalization
+  - CLLocalization (from `../`)
 
-SPEC REPOS:
-  trunk:
-    - CLLocalization
+EXTERNAL SOURCES:
+  CLLocalization:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  CLLocalization: e83420a04b25ac5afda1bce31f18e46a60e0ccae
+  CLLocalization: 07b2644adba1762e2809c42a2e3ec0e90af9a3c5
 
-PODFILE CHECKSUM: b07309a7e2c46f23a9671b04c806e03e8a4a6518
+PODFILE CHECKSUM: e4957f56412bbefbb74d063420bce7d7efa80f87
 
 COCOAPODS: 1.11.0

@@ -1,11 +1,12 @@
 {
-    "button": "Button VI",
-    "label": "Label VI",
+    "button": "Nút",
+    "label": "Nhãn",
     "vi": "Tiếng Việt",
     "en": "Tiếng Anh",
+    "device_language": "Ngôn ngữ máy",
     "change_language": "Đổi ngôn ngữ",
     "cancel": "Huỷ",
-    "title": "Localization VI",
+    "title": "Đa ngôn ngữ",
     "next": "Tiếp theo",
     "input": "Nhập ký tự"
 }

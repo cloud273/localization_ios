@@ -10,31 +10,71 @@ public class CLLocalization {
     
     private static let instance = CLLocalization.init()
     
-    private var code: String = ""
-    private var data = [String: String]()
-    private var codes = [String]()
-        
-    public static func initialize(_ supportedLanguages: [String], currentLanguage: String? = nil) {
-        instance.initialize(supportedLanguages, selectedLanguage: currentLanguage)
+    private let store = UserDefaults.init(suiteName: "com.cloud273.localization.store")!
+    private let key = "code"
+    private var data: [String: String]?
+    private var codes: [String]?
+    private var code: String?
+    
+    public static func initialize(_ supportedLanguages: [String]) {
+        instance.initialize(supportedLanguages)
     }
     
-    public static var selectedLanguage: String {
+    public static func setLanguage(_ language: String?) {
+        instance.setLanguage(language)
+    }
+    
+    public static var language: String {
         get {
-            return instance.selectedLanguage()
-        }
-        set {
-            instance.setLanguage(newValue)
+            return instance.code ?? ""
         }
     }
     
     public static var supportedLanguages: [String] {
         get {
-            return instance.supportedLanguages()
+            return instance.codes ?? []
         }
     }
     
     static func getValue(_ key: String) -> String {
-        return instance.getValue(key)
+        return instance.data?[key] ?? key
+    }
+    
+}
+
+private extension CLLocalization {
+    
+    func initialize(_ supportedLanguages: [String]) {
+        if codes == nil {
+            guard !supportedLanguages.isEmpty else {
+                fatalError("-----------------INITIALIZED FAIL: WRONG INPUT-------------")
+            }
+            codes = supportedLanguages
+            setLanguage(store.string(forKey: key))
+        }
+    }
+    
+    func setLanguage(_ language: String?) {
+        guard let codes = codes else {
+            fatalError("-----------------UNINITIALIZED-------------")
+        }
+        guard language == nil || codes.contains(language!) else {
+            fatalError("-----------------LANGUAGE ISN'T IN LIST-------------")
+        }
+        var c: String
+        if let language = language {
+            store.set(language, forKey: key)
+            c = language
+        } else {
+            store.removeObject(forKey: key)
+            c = preferLanguage
+        }
+        store.synchronize()
+        if c != code {
+            code = c
+            data = getData()
+            NotificationCenter.default.post(name: CLLocalization.languageChangedNotification, object: nil)
+        }
     }
     
 }
@@ -43,7 +83,7 @@ private extension CLLocalization {
     
     var preferLanguage: String {
         get {
-            let supportLanguages = supportedLanguages()
+            let supportLanguages = codes!
             var preferredLanguages = [String]()
             let languages = Locale.preferredLanguages
             for item in languages {
@@ -61,13 +101,9 @@ private extension CLLocalization {
         }
     }
     
-}
-
-private extension CLLocalization {
-    
-    func loadJson(_ filename: String) -> Any? {
+    func loadJson(_ filename: String) -> [String: String] {
         if let path = Bundle.main.path(forResource: filename, ofType: "json") {
-            if let result = try? JSONSerialization.jsonObject(with: Data.init(contentsOf: URL.init(fileURLWithPath: path)), options: .allowFragments) {
+            if let result = try? JSONSerialization.jsonObject(with: Data.init(contentsOf: URL.init(fileURLWithPath: path)), options: .allowFragments) as? [String: String] {
                 return result
             } else {
                 fatalError("-----------------LANGUAGE FILE \(filename) FAIL-------------")
@@ -75,47 +111,14 @@ private extension CLLocalization {
         } else {
             fatalError("-----------------LANGUAGE FILE \(filename) NOT FOUND-------------")
         }
-        return nil
+    }
+    
+    
+    func getData() -> [String: String] {
+        let filename =  "localization_\(code!)"
+        return loadJson(filename)
     }
     
 }
 
-private extension CLLocalization {
-    
-    func getData() -> [String: String] {
-        let filename =  "localization_\(code)"
-        if let data = loadJson(filename) as? [String: String] {
-            return data
-        } else {
-            fatalError("-----------------LANGUAGE FILE \(filename) IS INVALID-------------")
-        }
-    }
-    
-    func supportedLanguages() -> [String] {
-        return codes
-    }
-    
-    func selectedLanguage() -> String {
-        return code
-    }
-    
-    func initialize(_ supportedLanguages: [String], selectedLanguage: String?) {
-        codes = supportedLanguages
-        code = selectedLanguage ?? preferLanguage
-        data = getData()
-        NotificationCenter.default.post(name: CLLocalization.languageChangedNotification, object: nil)
-    }
-    
-    func setLanguage(_ c: String) {
-        if c != code {
-            code = c
-            data = getData()
-            NotificationCenter.default.post(name: CLLocalization.languageChangedNotification, object: nil)
-        }
-    }
-    
-    func getValue(_ key: String) -> String {
-        return data[key] ?? key
-    }
-    
-}
+

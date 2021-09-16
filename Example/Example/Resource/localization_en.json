@@ -3,6 +3,7 @@
     "label": "Label",
     "vi": "Vietnamese",
     "en": "English",
+    "device_language": "Device language",
     "change_language": "Change language",
     "cancel": "Cancel",
     "title": "Localization",

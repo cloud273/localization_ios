@@ -58,8 +58,23 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     return true
 }
     
+Note: Device langage will be used
+
 ```
-    
+  
+#### Change langauge:
+
+```
+- Change to target language:
+
+CLLocalization.setLanguage("en")
+        
+- Change back to device language:
+
+CLLocalization.setLanguage(nil)
+
+```
+  
 #### Storyboard:
 
 - UILabel:

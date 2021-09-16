@@ -57,20 +57,22 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     CLLocalization.initialize(["en", "vi"])
     return true
 }
-    
-Note: Device langage will be used
 
 ```
+Note: Device language will be used
   
-#### Change langauge:
+#### Change language:
 
-```
 - Change to target language:
 
+```
 CLLocalization.setLanguage("en")
-        
-- Change back to device language:
+     
+```
+  
+- Change back to use device language:
 
+```
 CLLocalization.setLanguage(nil)
 
 ```

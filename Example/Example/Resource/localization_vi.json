@@ -1,12 +1,12 @@
 {
     "button": "Nút",
-    "label": "Nhãn",
-    "vi": "Tiếng Việt",
-    "en": "Tiếng Anh",
-    "device_language": "Ngôn ngữ máy",
-    "change_language": "Đổi ngôn ngữ",
     "cancel": "Huỷ",
-    "title": "Đa ngôn ngữ",
+    "change_language": "Đổi ngôn ngữ",
+    "device_language": "Ngôn ngữ máy",
+    "en": "Tiếng Anh",
+    "input": "Nhập ký tự",
+    "label": "Nhãn",
     "next": "Tiếp theo",
-    "input": "Nhập ký tự"
+    "title": "Đa ngôn ngữ",
+    "vi": "Tiếng Việt"
 }

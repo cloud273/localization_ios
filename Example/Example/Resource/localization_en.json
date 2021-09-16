@@ -1,12 +1,12 @@
 {
     "button": "Button",
-    "label": "Label",
-    "vi": "Vietnamese",
-    "en": "English",
-    "device_language": "Device language",
-    "change_language": "Change language",
     "cancel": "Cancel",
-    "title": "Localization",
+    "change_language": "Change language",
+    "device_language": "Device language",
+    "en": "English",
+    "input": "Input here",
+    "label": "Label",
     "next": "Next",
-    "input": "Input here"
+    "title": "Localization",
+    "vi": "Vietnamese"
 }

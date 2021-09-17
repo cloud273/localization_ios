@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		163955DDAA742BCBE957B1755A425B9E /* UIImageView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD23688CD203453E18CA35EB62A7224 /* UIImageView+Localization.swift */; };
-		2A1FD2A42B46E804D5FE6EC2B641C0BC /* UITextField+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35B42789C00E70DB2D6E650102B6A8 /* UITextField+Localization.swift */; };
-		454772C64AA6D2704D646A2DCA044FD2 /* CLUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF74A56FFAA9CEE5631495C5BC5EFE77 /* CLUtility.swift */; };
-		53E6387BC1F333CF4DA9C01C0CCAC760 /* CLLocalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF696786A32671FD1DDBB209497D181 /* CLLocalization-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E0F36827FE190305C7A9A3CE6459923 /* UIImageView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553D9CB5BEEA65164FE6B8806EF45371 /* UIImageView+Localization.swift */; };
+		0E4E49776524555BD8AF69122FE9F0E1 /* UIBarItem+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4413B7C46BCF250E6D9A3210D632BA1B /* UIBarItem+Localization.swift */; };
+		1651F4D723625EB99A1C799BB29B3C27 /* UITextField+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5F051CE10F440A850E1F30093CBD69 /* UITextField+Localization.swift */; };
+		4F248D297865009083155E13A7116B86 /* UINavigationItem+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A3245B0907BE47C9DC7118618C2B77 /* UINavigationItem+Localization.swift */; };
+		53E6387BC1F333CF4DA9C01C0CCAC760 /* CLLocalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB75F57AA436613979B9801AE5CC4418 /* CLLocalization-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		59A97EDBC844CC9B271C6B2DDB9E4980 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A10118860486B1C21B46B8EC8C08425 /* Pods-Example-dummy.m */; };
-		739E6F73184A9B9DC75D088402B3FC4F /* CLLocalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9661BAF1420B3380F6A45744494394 /* CLLocalization-dummy.m */; };
-		902477DEA7C980632E1F9B3ADA8DC2BC /* CLLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045CC0B519E31FCD9D2C4B70DD388EA6 /* CLLocalization.swift */; };
-		9C58503B3A41179FCC6018DCD177EAB5 /* UILabel+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8788C068EADAB2BA9A1758891969995 /* UILabel+Localization.swift */; };
-		AACF60ED2C4A10CB9359EC1B8BFE3A81 /* UINavigationItem+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16E404A512094F0D4274651D423C3A9 /* UINavigationItem+Localization.swift */; };
+		6EB0AAF8F5FAF9B4B6115E40956285A2 /* UIButton+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F2841E95583679B1FF0C1BD3602437 /* UIButton+Localization.swift */; };
+		739E6F73184A9B9DC75D088402B3FC4F /* CLLocalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B5F8B85D3EBF4E51666B32A61FFF94 /* CLLocalization-dummy.m */; };
+		B575D442F749C4B64DCF0038809F0DFD /* CLLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F349EED1BD79D30A2D5FC2D0269D09 /* CLLocalization.swift */; };
+		B717692A63F48EC329A44A0F3C32C146 /* UILabel+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DD8D8246AD69DD861B6B29010B8A10 /* UILabel+Localization.swift */; };
 		C6093F6BC059F45B5461D092F62CFD36 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 156BF54520F2121642B61B54902E7808 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D3A92C352D4A338F1ED1D98B8AACA8E2 /* UIBarItem+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BFDE8D8B95920DA235DA159BB4E926 /* UIBarItem+Localization.swift */; };
-		EB603C4301B129780D240EA04EA15127 /* UIButton+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF111CE2DAE595B1EE4E4482CDBA8D /* UIButton+Localization.swift */; };
-		EE001030616B82DBBE904657834D6372 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2082A4D67F1FAC7A4734F3999AA7505 /* String+Localization.swift */; };
+		DC72DACF7AC4FA9E058EFD8DA270A943 /* CLUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9F4F99CAC523DDEC6BAA54F112A1B /* CLUtility.swift */; };
+		FA4F9045587547828025E2C7308F4769 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA713F57F5D3CD5259E97E66CD90A20 /* String+Localization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,34 +33,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		045CC0B519E31FCD9D2C4B70DD388EA6 /* CLLocalization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLLocalization.swift; path = source/CLLocalization.swift; sourceTree = "<group>"; };
+		13C9F4F99CAC523DDEC6BAA54F112A1B /* CLUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLUtility.swift; path = Sources/CLUtility.swift; sourceTree = "<group>"; };
 		156BF54520F2121642B61B54902E7808 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Example"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AA7926E3A03B923B43C3B0FD8C4E30 /* CLLocalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLLocalization.debug.xcconfig; sourceTree = "<group>"; };
+		23A3245B0907BE47C9DC7118618C2B77 /* UINavigationItem+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationItem+Localization.swift"; path = "Sources/UINavigationItem+Localization.swift"; sourceTree = "<group>"; };
+		34270AB3E28EDB2C9D57F3DE79395F47 /* CLLocalization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLLocalization-prefix.pch"; sourceTree = "<group>"; };
+		3971705C8E99EFE728D700838715CFC7 /* CLLocalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLLocalization.release.xcconfig; sourceTree = "<group>"; };
 		3D6746E07DAA8BF046F4230C613B314E /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4413B7C46BCF250E6D9A3210D632BA1B /* UIBarItem+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBarItem+Localization.swift"; path = "Sources/UIBarItem+Localization.swift"; sourceTree = "<group>"; };
+		4DA713F57F5D3CD5259E97E66CD90A20 /* String+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Localization.swift"; path = "Sources/String+Localization.swift"; sourceTree = "<group>"; };
+		52CF50E657A90E2257B97DE4B48A86DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		53A341026EB50DB44BD6D7600982D503 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		543FA49B9490BA901F6F37DD868AEFB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		553D9CB5BEEA65164FE6B8806EF45371 /* UIImageView+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Localization.swift"; path = "Sources/UIImageView+Localization.swift"; sourceTree = "<group>"; };
+		5726713EA021CF7E1E8A7F07123CDC75 /* CLLocalization.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CLLocalization.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A10118860486B1C21B46B8EC8C08425 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		5E35B42789C00E70DB2D6E650102B6A8 /* UITextField+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Localization.swift"; path = "source/UITextField+Localization.swift"; sourceTree = "<group>"; };
+		5B0FF4B3F30F858ECA7DF3E3FA0DB9E4 /* CLLocalization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLLocalization.modulemap; sourceTree = "<group>"; };
 		763B5F5D6D7214D56B655DE87625A480 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7E35023B155D7ADA2A018F7AC2BDFECF /* CLLocalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLLocalization.debug.xcconfig; sourceTree = "<group>"; };
-		82BFDE8D8B95920DA235DA159BB4E926 /* UIBarItem+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBarItem+Localization.swift"; path = "source/UIBarItem+Localization.swift"; sourceTree = "<group>"; };
 		9A3D778F0C0BA5A11B556A6026C20B46 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9A8BC4CE72A41A90356C6098C5A88AF7 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		9CDF111CE2DAE595B1EE4E4482CDBA8D /* UIButton+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Localization.swift"; path = "source/UIButton+Localization.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7C078B49FB5A9B2B78C841370262F9B /* CLLocalization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLLocalization-prefix.pch"; sourceTree = "<group>"; };
-		A7DB0AFF3B03AE26EE8CC20CE8C62940 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		ADD23688CD203453E18CA35EB62A7224 /* UIImageView+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Localization.swift"; path = "source/UIImageView+Localization.swift"; sourceTree = "<group>"; };
-		B8788C068EADAB2BA9A1758891969995 /* UILabel+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Localization.swift"; path = "source/UILabel+Localization.swift"; sourceTree = "<group>"; };
+		A0B5F8B85D3EBF4E51666B32A61FFF94 /* CLLocalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLLocalization-dummy.m"; sourceTree = "<group>"; };
+		A2DD8D8246AD69DD861B6B29010B8A10 /* UILabel+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Localization.swift"; path = "Sources/UILabel+Localization.swift"; sourceTree = "<group>"; };
+		AB75F57AA436613979B9801AE5CC4418 /* CLLocalization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLLocalization-umbrella.h"; sourceTree = "<group>"; };
+		B7F349EED1BD79D30A2D5FC2D0269D09 /* CLLocalization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLLocalization.swift; path = Sources/CLLocalization.swift; sourceTree = "<group>"; };
 		BD1CE1CFC630AF5E389239F400EDF558 /* CLLocalization */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = CLLocalization; path = libCLLocalization.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1097FC5B0F5339CCC012C317FC2342B /* CLLocalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLLocalization.release.xcconfig; sourceTree = "<group>"; };
-		C1EEFB18B2C10836685522EACE78579B /* CLLocalization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLLocalization.modulemap; sourceTree = "<group>"; };
-		D2082A4D67F1FAC7A4734F3999AA7505 /* String+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Localization.swift"; path = "source/String+Localization.swift"; sourceTree = "<group>"; };
-		D44D5F97D4CC080359BBAC53A93F2967 /* CLLocalization.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CLLocalization.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DB9661BAF1420B3380F6A45744494394 /* CLLocalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLLocalization-dummy.m"; sourceTree = "<group>"; };
-		DF74A56FFAA9CEE5631495C5BC5EFE77 /* CLUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLUtility.swift; path = source/CLUtility.swift; sourceTree = "<group>"; };
-		EAF696786A32671FD1DDBB209497D181 /* CLLocalization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLLocalization-umbrella.h"; sourceTree = "<group>"; };
-		F16E404A512094F0D4274651D423C3A9 /* UINavigationItem+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationItem+Localization.swift"; path = "source/UINavigationItem+Localization.swift"; sourceTree = "<group>"; };
-		FF6ECF170AAA11A34EC80F841B73A783 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C5F2841E95583679B1FF0C1BD3602437 /* UIButton+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Localization.swift"; path = "Sources/UIButton+Localization.swift"; sourceTree = "<group>"; };
+		FF5F051CE10F440A850E1F30093CBD69 /* UITextField+Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Localization.swift"; path = "Sources/UITextField+Localization.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,20 +90,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4231F4987161C64243FD5EEA4520FB19 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C1EEFB18B2C10836685522EACE78579B /* CLLocalization.modulemap */,
-				DB9661BAF1420B3380F6A45744494394 /* CLLocalization-dummy.m */,
-				A7C078B49FB5A9B2B78C841370262F9B /* CLLocalization-prefix.pch */,
-				EAF696786A32671FD1DDBB209497D181 /* CLLocalization-umbrella.h */,
-				7E35023B155D7ADA2A018F7AC2BDFECF /* CLLocalization.debug.xcconfig */,
-				C1097FC5B0F5339CCC012C317FC2342B /* CLLocalization.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CLLocalization";
-			sourceTree = "<group>";
-		};
 		45BF6390E4DB7E143C827E9EE4118525 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,35 +101,49 @@
 		470881B03630BDC3A606ACB345C8318E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6512EB02FA5665EEF8DDB48EEC10CC73 /* CLLocalization */,
+				C7A67C65E016CE3603B5BC8DAC852BB6 /* CLLocalization */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5BFE370EC06204FA96DEB37C4D538D3E /* Pod */ = {
+		6DDB54284C98F9D6E541DFBF297B316D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D44D5F97D4CC080359BBAC53A93F2967 /* CLLocalization.podspec */,
-				A7DB0AFF3B03AE26EE8CC20CE8C62940 /* LICENSE */,
-				FF6ECF170AAA11A34EC80F841B73A783 /* README.md */,
+				5726713EA021CF7E1E8A7F07123CDC75 /* CLLocalization.podspec */,
+				543FA49B9490BA901F6F37DD868AEFB5 /* LICENSE */,
+				52CF50E657A90E2257B97DE4B48A86DB /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		6512EB02FA5665EEF8DDB48EEC10CC73 /* CLLocalization */ = {
+		6FEB2B7F089EA9ECC0089717DB14A135 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				045CC0B519E31FCD9D2C4B70DD388EA6 /* CLLocalization.swift */,
-				DF74A56FFAA9CEE5631495C5BC5EFE77 /* CLUtility.swift */,
-				D2082A4D67F1FAC7A4734F3999AA7505 /* String+Localization.swift */,
-				82BFDE8D8B95920DA235DA159BB4E926 /* UIBarItem+Localization.swift */,
-				9CDF111CE2DAE595B1EE4E4482CDBA8D /* UIButton+Localization.swift */,
-				ADD23688CD203453E18CA35EB62A7224 /* UIImageView+Localization.swift */,
-				B8788C068EADAB2BA9A1758891969995 /* UILabel+Localization.swift */,
-				F16E404A512094F0D4274651D423C3A9 /* UINavigationItem+Localization.swift */,
-				5E35B42789C00E70DB2D6E650102B6A8 /* UITextField+Localization.swift */,
-				5BFE370EC06204FA96DEB37C4D538D3E /* Pod */,
-				4231F4987161C64243FD5EEA4520FB19 /* Support Files */,
+				5B0FF4B3F30F858ECA7DF3E3FA0DB9E4 /* CLLocalization.modulemap */,
+				A0B5F8B85D3EBF4E51666B32A61FFF94 /* CLLocalization-dummy.m */,
+				34270AB3E28EDB2C9D57F3DE79395F47 /* CLLocalization-prefix.pch */,
+				AB75F57AA436613979B9801AE5CC4418 /* CLLocalization-umbrella.h */,
+				21AA7926E3A03B923B43C3B0FD8C4E30 /* CLLocalization.debug.xcconfig */,
+				3971705C8E99EFE728D700838715CFC7 /* CLLocalization.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CLLocalization";
+			sourceTree = "<group>";
+		};
+		C7A67C65E016CE3603B5BC8DAC852BB6 /* CLLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				B7F349EED1BD79D30A2D5FC2D0269D09 /* CLLocalization.swift */,
+				13C9F4F99CAC523DDEC6BAA54F112A1B /* CLUtility.swift */,
+				4DA713F57F5D3CD5259E97E66CD90A20 /* String+Localization.swift */,
+				4413B7C46BCF250E6D9A3210D632BA1B /* UIBarItem+Localization.swift */,
+				C5F2841E95583679B1FF0C1BD3602437 /* UIButton+Localization.swift */,
+				553D9CB5BEEA65164FE6B8806EF45371 /* UIImageView+Localization.swift */,
+				A2DD8D8246AD69DD861B6B29010B8A10 /* UILabel+Localization.swift */,
+				23A3245B0907BE47C9DC7118618C2B77 /* UINavigationItem+Localization.swift */,
+				FF5F051CE10F440A850E1F30093CBD69 /* UITextField+Localization.swift */,
+				6DDB54284C98F9D6E541DFBF297B316D /* Pod */,
+				6FEB2B7F089EA9ECC0089717DB14A135 /* Support Files */,
 			);
 			name = CLLocalization;
 			path = ../..;
@@ -308,16 +308,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				902477DEA7C980632E1F9B3ADA8DC2BC /* CLLocalization.swift in Sources */,
+				B575D442F749C4B64DCF0038809F0DFD /* CLLocalization.swift in Sources */,
 				739E6F73184A9B9DC75D088402B3FC4F /* CLLocalization-dummy.m in Sources */,
-				454772C64AA6D2704D646A2DCA044FD2 /* CLUtility.swift in Sources */,
-				EE001030616B82DBBE904657834D6372 /* String+Localization.swift in Sources */,
-				D3A92C352D4A338F1ED1D98B8AACA8E2 /* UIBarItem+Localization.swift in Sources */,
-				EB603C4301B129780D240EA04EA15127 /* UIButton+Localization.swift in Sources */,
-				163955DDAA742BCBE957B1755A425B9E /* UIImageView+Localization.swift in Sources */,
-				9C58503B3A41179FCC6018DCD177EAB5 /* UILabel+Localization.swift in Sources */,
-				AACF60ED2C4A10CB9359EC1B8BFE3A81 /* UINavigationItem+Localization.swift in Sources */,
-				2A1FD2A42B46E804D5FE6EC2B641C0BC /* UITextField+Localization.swift in Sources */,
+				DC72DACF7AC4FA9E058EFD8DA270A943 /* CLUtility.swift in Sources */,
+				FA4F9045587547828025E2C7308F4769 /* String+Localization.swift in Sources */,
+				0E4E49776524555BD8AF69122FE9F0E1 /* UIBarItem+Localization.swift in Sources */,
+				6EB0AAF8F5FAF9B4B6115E40956285A2 /* UIButton+Localization.swift in Sources */,
+				0E0F36827FE190305C7A9A3CE6459923 /* UIImageView+Localization.swift in Sources */,
+				B717692A63F48EC329A44A0F3C32C146 /* UILabel+Localization.swift in Sources */,
+				4F248D297865009083155E13A7116B86 /* UINavigationItem+Localization.swift in Sources */,
+				1651F4D723625EB99A1C799BB29B3C27 /* UITextField+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +423,7 @@
 		};
 		6AC4A5704A2CA1D4B529C2BE4794BCA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1097FC5B0F5339CCC012C317FC2342B /* CLLocalization.release.xcconfig */;
+			baseConfigurationReference = 3971705C8E99EFE728D700838715CFC7 /* CLLocalization.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -469,7 +469,7 @@
 		};
 		B79A2566FC7960289B85AA4F316693CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E35023B155D7ADA2A018F7AC2BDFECF /* CLLocalization.debug.xcconfig */;
+			baseConfigurationReference = 21AA7926E3A03B923B43C3B0FD8C4E30 /* CLLocalization.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

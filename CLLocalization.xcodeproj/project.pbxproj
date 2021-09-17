@@ -57,7 +57,7 @@
 				8E4E1D7C23C4682E004EE7EC /* CLLocalization.podspec */,
 				8E4E1D7B23C4472C004EE7EC /* LICENSE */,
 				8E4E1D7A23C44727004EE7EC /* README.md */,
-				8E55CE8022D333D400FE25DE /* source */,
+				8E55CE8022D333D400FE25DE /* Sources */,
 				8E55CE7F22D333D400FE25DE /* Products */,
 				FBB22737FF12B9BAAE513BD1 /* Frameworks */,
 				EE953A3F2FDD8A75D96FF4F2 /* Pods */,
@@ -72,7 +72,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E55CE8022D333D400FE25DE /* source */ = {
+		8E55CE8022D333D400FE25DE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				8EEBDBB323C7269F002FA32B /* CLLocalization.swift */,
@@ -86,7 +86,7 @@
 				8EEBDBB823C7269F002FA32B /* UITextField+Localization.swift */,
 				8E55CE8222D333D400FE25DE /* Info.plist */,
 			);
-			path = source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		EE953A3F2FDD8A75D96FF4F2 /* Pods */ = {

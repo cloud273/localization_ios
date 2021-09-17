@@ -81,23 +81,23 @@ CLLocalization.setLanguage(nil)
 
 - UILabel:
 
-![UIButton](./document/image/label.png)
+![UIButton](./Documents/Image/label.png)
 
 - UIButton:
 
-![UIButton](./document/image/button.png)
+![UIButton](./Documents/Image/button.png)
 
 - UITextField:
 
-![UIButton](./document/image/text_field.png)
+![UIButton](./Documents/Image/text_field.png)
 
 - UINavigationItem:
 
-![UIButton](./document/image/navigation_item.png)
+![UIButton](./Documents/Image/navigation_item.png)
 
 - UIBarItem:
 
-![UIButton](./document/image/bar_item.png)
+![UIButton](./Documents/Image/bar_item.png)
 
 #### Code:
 

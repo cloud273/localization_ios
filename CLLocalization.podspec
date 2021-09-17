@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ['5.0', '5.1', '5.2', '5.3']
 
-  s.source_files = "source/*.swift"
+  s.source_files = "Sources/*.swift"
 
   s.framework    = "UIKit"
 

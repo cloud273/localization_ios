@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.description  = "This framework is used for localization(multi-language) application"
 
-  s.homepage     = "https://github.com/dungnguyen2703/localization_ios.git"
+  s.homepage     = "https://github.com/cloud273/localization_ios.git"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => 'https://github.com/dungnguyen2703/localization_ios.git', :tag => s.version }
+  s.source       = { :git => 'https://github.com/cloud273/localization_ios.git', :tag => s.version }
 
   s.swift_versions = ['5.0', '5.1', '5.2', '5.3']
 

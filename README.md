@@ -134,7 +134,7 @@ barItem.lTitle = "bar_item_title"
 - String
 
 ```swift
-String localizedString = "text".localized
+let localizedString = "text".localized
 ```
 
 ## Example

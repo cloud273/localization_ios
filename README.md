@@ -37,7 +37,7 @@ Content of file:
     "label": "My label",
     "cancel": "Cancel",
     "next": "Next",
-    "input": "Tap here to input",
+    "input": "Tap here to input"
 }
 ```
 

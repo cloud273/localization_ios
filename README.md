@@ -43,7 +43,7 @@ Content of file:
 
 #### Initialize list of supported language:
 
-```
+```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
     CLLocalization.initialize(["en", "vi"])
@@ -57,14 +57,14 @@ Note: Device language will be used
 
 - Change to target language:
 
-```
+```swift
 CLLocalization.setLanguage("en")
      
 ```
   
 - Change back to use device language:
 
-```
+```swift
 CLLocalization.setLanguage(nil)
 
 ```
@@ -93,19 +93,19 @@ CLLocalization.setLanguage(nil)
 
 #### Code:
 
-```
+```swift
 import CLLocalization
 ```
 
 - UILabel:
 
-```
+```swift
 label.lText = "label"
 ```
 
 - UIButton:
 
-```
+```swift
 button.lNormal = "button_normal"
 button.lHighlighted = "button_hightlighted"
 button.lSelected = "button_selected"
@@ -114,26 +114,26 @@ button.lDisabled = "button_disabled"
 
 - UITextField:
 
-```
+```swift
 textField.lPlaceHolder = "text_field_place_holder"
 ```
 
 - UINavigationItem:
 
-```
+```swift
 navigationItem.lTitle = "navigation_title"
 navigationItem.lPrompt = "navigation_prompt"
 ```
 
 - UIBarItem:
 
-```
+```swift
 barItem.lTitle = "bar_item_title"
 ```
 
 - String
 
-```
+```swift
 String localizedString = "text".localized
 ```
 

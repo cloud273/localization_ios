@@ -17,14 +17,6 @@
 pod 'CLLocalization'
 ```
 
-## Contribution
-
-You are welcome to fork and submit pull requests.
-
-## License
-
-`CLLocalization` is open-sourced software, licensed under the `MIT` license.
-
 ## Usage
 
 #### Required files: 
@@ -148,3 +140,11 @@ String localizedString = "text".localized
 ## Example
 
 Please find in project
+
+## Contribution
+
+You are welcome to fork and submit pull requests.
+
+## License
+
+`CLLocalization` is open-sourced software, licensed under the `MIT` license.

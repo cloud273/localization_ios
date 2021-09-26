@@ -41,7 +41,7 @@ Content of file:
 }
 ```
 
-#### Initialize:
+#### Initialize list of supported language:
 
 ```
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -93,19 +93,19 @@ CLLocalization.setLanguage(nil)
 
 #### Code:
 
-```json
+```
 import CLLocalization
 ```
 
 - UILabel:
 
-```json
+```
 label.lText = "label"
 ```
 
 - UIButton:
 
-```json
+```
 button.lNormal = "button_normal"
 button.lHighlighted = "button_hightlighted"
 button.lSelected = "button_selected"
@@ -114,26 +114,26 @@ button.lDisabled = "button_disabled"
 
 - UITextField:
 
-```json
+```
 textField.lPlaceHolder = "text_field_place_holder"
 ```
 
 - UINavigationItem:
 
-```json
+```
 navigationItem.lTitle = "navigation_title"
 navigationItem.lPrompt = "navigation_prompt"
 ```
 
 - UIBarItem:
 
-```json
+```
 barItem.lTitle = "bar_item_title"
 ```
 
 - String
 
-```json
+```
 String localizedString = "text".localized
 ```
 
